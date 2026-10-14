@@ -1,6 +1,5 @@
 package clase_7;
 
-import java.util.Arrays;
 
 public class Ejemplo2 {
     public static void main(String[] args){
