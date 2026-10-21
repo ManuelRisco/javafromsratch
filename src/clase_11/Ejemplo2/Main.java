@@ -7,5 +7,7 @@ public class Main {
         Coche c1 = new Coche("Toyota", m1);
         m1.mostarMotor();
         System.out.println(c1.mostrarInformacion());
+        m1.cambiarMotor(300);
+        System.out.println(m1.getCaballosFuerza());
     }
 }

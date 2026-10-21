@@ -10,6 +10,9 @@ public class Motor {
     }
 
     public void mostarMotor(){
-        System.out.println("Fuerza: " + getCaballosFuerza());
+        System.out.println("Caballos de Fuerza: " + getCaballosFuerza());
+    }
+    public void cambiarMotor(int caballosFuerza){
+        this.caballosFuerza = caballosFuerza;
     }
 }
