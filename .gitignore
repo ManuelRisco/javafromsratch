@@ -28,3 +28,10 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Secretos y configuraciones locales ###
+.idea/
+*.iml
+.env
+.env.*
+!.env.example
