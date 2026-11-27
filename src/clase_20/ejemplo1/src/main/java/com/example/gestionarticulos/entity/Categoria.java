@@ -1,4 +1,4 @@
-package entity;
+package com.example.gestionarticulos.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -11,6 +11,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 public class Categoria {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")

@@ -1,10 +1,10 @@
-package com.example.sistemagestiondocumental;
+package com.example.gestionarticulos;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SistemaGestionDocumentalApplicationTests {
+class GestionArticulosApplicationTests {
 
     @Test
     void contextLoads() {
